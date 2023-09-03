@@ -34,15 +34,17 @@ for /F "tokens=*" %%i in ('.\svcl.exe /Stdout /GetPercent %DEVICE_NAME%') do set
     echo   [-] Checks audio volume of %DEVICE_NAME% every %SECONDS% seconds
     echo       and switches registry key value for Loudness Equalization
     echo.
+    echo   Highlight window and press P to pause.
     echo   CTRL+C to exit.
     echo.
     echo.
     echo --------------------------------------------------------------------------------
-    echo   NOTE: Do not run as Administrator!
+    echo   NOTE: Do NOT run as Administrator!
     echo         Needs svcl.exe from NirSoft.com
     echo --------------------------------------------------------------------------------
     echo.
     echo.
+    
     
     if %DEV%==1 (
         echo Current Volume     = %VOlUME%
@@ -55,7 +57,10 @@ for /F "tokens=*" %%i in ('.\svcl.exe /Stdout /GetPercent %DEVICE_NAME%') do set
         echo Volume changed ...
         goto CHECK
         )
-    timeout /T %SECONDS% /NOBREAK >nul
+    choice /T %SECONDS% /C pc /D c /N /M "Press P to pause ..."
+    if %errorlevel% EQU 1 pause
+    if %errorlevel% EQU 2 goto LOOP
+    rem timeout /T %SECONDS% /NOBREAK >nul
     goto LOOP
 
 :CHECK
