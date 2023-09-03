@@ -18,6 +18,7 @@ echo.
 echo   Space or CTRL+C to exit.
 echo.
 echo --------------------------------------------------------------------------------
+echo NOTE: Run as Administrator!
 echo.
 echo    DISM /online /Cleanup-Image /StartComponentCleanup
 echo Clean up and compress components.

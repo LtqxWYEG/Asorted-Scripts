@@ -15,10 +15,11 @@ echo   CTRL+C to exit.
 echo.
 echo.
 echo --------------------------------------------------------------------------------
-echo   WARNING! Could take up to 30 minutes even with a SSD/NVME
+echo   NOTE: Run as Administrator! Could take up to 30 minutes even with a SSD/NVME
 echo --------------------------------------------------------------------------------
 echo.
 echo.
+pause
 
 
 schtasks /run /i /tn "\Microsoft\Windows\Defrag\ScheduledDefrag"

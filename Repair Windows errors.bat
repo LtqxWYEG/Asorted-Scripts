@@ -17,6 +17,7 @@ echo   "Space and Enter" or CTRL+C to exit.
 echo.
 echo.
 echo --------------------------------------------------------------------------------
+echo NOTE: Run as Administrator!
 echo WARNING! "DISM /RestoreHealth" will revert many settings you've made to Windows.
 echo (Like privacy and security settings) Remember to re-apply them afterwards!
 echo.
