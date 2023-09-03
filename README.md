@@ -11,4 +11,4 @@ Just an assortment of scripts I wrote. A place to save them for use afar.
   
 - Optimize or defrag disks.bat --- Immediately executes the Task: "\Microsoft\Windows\Defrag\ScheduledDefrag" via schtasks. Despite its name, it will optimize instead of defragment SSDs.
   
-- pip upgrade all.bat --- Upgrades PIP and updates all Python packages.
+- pip upgrade all.bat --- Nothing special: Upgrades PIP and updates all Python packages.
