@@ -9,6 +9,6 @@ Just an assortment of scripts I wrote. A place to save them for use afar.
   
 - Clean WinSxS.bat --- Script for reducing size of WinSxS folder. Run with parameter "4" if you don't know what is going to happen.
   
-- Optimize or defrag disks.bat --- Immediately executes the Task: "\Microsoft\Windows\Defrag\ScheduledDefrag" via schtasks. Despite its name, it will optimize instead of defragment SSDs.
+- Optimize or defrag disks.bat --- Immediately executes the Task: "\Microsoft\Windows\Defrag\ScheduledDefrag" via schtasks. Despite its name, the Task will "optimize" instead of "defragment" SSDs.
   
 - pip upgrade all.bat --- Nothing special: Upgrades PIP and updates all Python packages.
