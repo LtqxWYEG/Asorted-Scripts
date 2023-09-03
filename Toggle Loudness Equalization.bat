@@ -38,7 +38,7 @@ for /F "tokens=*" %%i in ('.\svcl.exe /Stdout /GetPercent %DEVICE_NAME%') do set
     echo.
     echo.
     echo --------------------------------------------------------------------------------
-    echo   NOTE: Run as Administrator!
+    echo   NOTE: Do not run as Administrator!
     echo         Needs svcl.exe from NirSoft.com
     echo --------------------------------------------------------------------------------
     echo.
@@ -82,3 +82,5 @@ for /F "tokens=*" %%i in ('.\svcl.exe /Stdout /GetPercent %DEVICE_NAME%') do set
     for /F "tokens=*" %%i in ('.\svcl.exe /Stdout /GetPercent %DEVICE_NAME%') do set OLDVOLUME=%%i
     timeout /T %SECONDS% /NOBREAK >nul
     goto LOOP
+
+pause
