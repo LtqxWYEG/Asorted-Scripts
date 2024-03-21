@@ -54,10 +54,8 @@ echo.
 echo.
 set /a run=run+1
 if %run%==3 goto END
-goto DISM
 
 
-:DISM
 echo ================================================================================
 echo.
 echo.
