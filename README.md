@@ -11,7 +11,6 @@ Just an assortment of scripts I wrote. A place to save them for use afar.
 - ## Repair Windows errors.bat
   Run as Administrator.  
   Script for repairing Windows errors via SFC and DISM.
-  #### Run with parameter "3" if you don't know what is going to happen.
   
 - ## Clean WinSxS.bat
   Run as Administrator.  
