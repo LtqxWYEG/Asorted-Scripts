@@ -1,5 +1,5 @@
 # Assorted-Scripts
-Just an assortment of scripts I wrote. A place to save them for use afar.  
+Just an assortment of scripts I wrote for Windows. A place to save them for use afar.  
 
 # Descriptions
 - ## Toggle Loudness Equalization.bat
