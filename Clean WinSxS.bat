@@ -15,7 +15,7 @@ echo   [4] or [4p] Run all.                 (Add the "p" to pause inbetween comm
 echo   [r] for a report of the WinSxS component store.       (/AnalyzeComponentStore)
 echo   ### "/AnalyzeComponentStore" does not show how much space can be freed ###
 echo.
-echo   Space or CTRL+C to exit.
+echo          Enter to start everything ("4")  --  Space or CTRL+C to exit.
 echo.
 echo --------------------------------------------------------------------------------
 echo NOTE: Run as Administrator!
@@ -38,7 +38,8 @@ echo.
 
 set run=1
 set ask=0
-set /p ask="Choose: "
+set /p ask="Choose: " || SET "ask=4"
+rem IF NOT DEFINED ask SET "4"
 
 if %ask%==1 goto DISM1
 if %ask%==2 goto DISM2
