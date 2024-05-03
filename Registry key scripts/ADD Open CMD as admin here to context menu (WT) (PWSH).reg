@@ -1,0 +1,43 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedCmd]
+@="Open command prompt here as administrator"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedCmd\command]
+@="pwsh.exe -command \"Start-Process -Verb RunAs wt.exe \\\"cmd.exe /k cd \\\`\\\"%V\\\`\\\"\\\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedCmd]
+@="Open command prompt here as administrator"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedCmd\command]
+@="pwsh.exe -command \"Start-Process -Verb RunAs wt.exe \\\"cmd.exe /k cd \\\`\\\"%V\\\`\\\"\\\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedCmd]
+@="Open command prompt here as administrator"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedCmd\command]
+@="pwsh.exe -command \"Start-Process -Verb RunAs wt.exe \\\"cmd.exe /k cd \\\`\\\"%V\\\`\\\"\\\""
+
+[HKEY_CLASSES_ROOT\Drive\background\shell\OpenElevatedCmd]
+@="Open command prompt here as administrator"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Drive\background\shell\OpenElevatedCmd\command]
+@="pwsh.exe -command \"Start-Process -Verb RunAs wt.exe \\\"cmd.exe /k cd \\\`\\\"%V\\\`\\\"\\\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\shell\OpenElevatedCmd]
+@="Open command prompt here as administrator"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\shell\OpenElevatedCmd\command]
+@="pwsh.exe -command \"Start-Process -Verb RunAs wt.exe \\\"cmd.exe /k cd \\\`\\\"%V\\\`\\\"\\\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedCmd]
+@="Open command prompt here as administrator"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedCmd\command]
+@="pwsh.exe -command \"Start-Process -Verb RunAs wt.exe \\\"cmd.exe /k cd \\\`\\\"%V\\\`\\\"\\\""

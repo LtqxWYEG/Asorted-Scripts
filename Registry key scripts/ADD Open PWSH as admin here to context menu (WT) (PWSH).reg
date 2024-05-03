@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedPS]
+@="Open PowerShell 7 here as administrator"
+"Icon"="pwsh.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedPS\command]
+@="pwsh.exe -Command \"Start-Process -Verb RunAs wt.exe \\\"pwsh.exe -NoExit -Command Set-Location -LiteralPath '%V'\\\"\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedPS]
+@="Open PowerShell 7 here as administrator"
+"Icon"="pwsh.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedPS\command]
+@="pwsh.exe -Command \"Start-Process -Verb RunAs wt.exe \\\"pwsh.exe -NoExit -Command Set-Location -LiteralPath '%V'\\\"\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedPS]
+@="Open PowerShell 7 here as administrator"
+"Icon"="pwsh.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedPS\command]
+@="pwsh.exe -Command \"Start-Process -Verb RunAs wt.exe \\\"pwsh.exe -NoExit -Command Set-Location -LiteralPath '%V'\\\"\""
+
+[HKEY_CLASSES_ROOT\Drive\background\shell\OpenElevatedPS]
+@="Open PowerShell 7 here as administrator"
+"Icon"="pwsh.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Drive\background\shell\OpenElevatedPS\command]
+@="pwsh.exe -Command \"Start-Process -Verb RunAs wt.exe \\\"pwsh.exe -NoExit -Command Set-Location -LiteralPath '%V'\\\"\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\shell\OpenElevatedPS]
+@="Open PowerShell 7 here as administrator"
+"Icon"="pwsh.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\shell\OpenElevatedPS\command]
+@="pwsh.exe -Command \"Start-Process -Verb RunAs wt.exe \\\"pwsh.exe -NoExit -Command Set-Location -LiteralPath '%V'\\\"\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedPS]
+@="Open PowerShell 7 here as administrator"
+"Icon"="pwsh.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedPS\command]
+@="pwsh.exe -Command \"Start-Process -Verb RunAs wt.exe \\\"pwsh.exe -NoExit -Command Set-Location -LiteralPath '%V'\\\"\""
