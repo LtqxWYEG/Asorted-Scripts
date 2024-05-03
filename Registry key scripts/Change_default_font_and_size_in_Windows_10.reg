@@ -1,0 +1,23 @@
+﻿Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: October 25th 2016
+; Updated on: April 30, 2024
+; Tutorial: http://www.tenforums.com/tutorials/67931-font-change-default-windows-10-a.html
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"="Hack Bold (TrueType)"
+"Segoe UI Bold (TrueType)"="Hack Bold (TrueType)"
+"Segoe UI Bold Italic (TrueType)"="Hack Bold Italic (TrueType)"
+"Segoe UI Italic (TrueType)"="Hack Bold Italic (TrueType)"
+"Segoe UI Semibold (TrueType)"="Hack Bold (TrueType)"
+"Segoe UI Symbol (TrueType)"="Segoe UI Symbol (TrueType)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Hack"
+
+; Added by LtqxWYEG -----------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontDPI]
+"LogPixels"=dword:00000120
+; less is more
