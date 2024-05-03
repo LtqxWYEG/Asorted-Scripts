@@ -10,12 +10,13 @@ Just an assortment of scripts I wrote for Windows. A place to save them for use 
   
 - ## Repair Windows errors.bat
   Run as Administrator.  
-  Script for repairing Windows errors via SFC and DISM.
+  Script for repairing Windows errors via SFC and DISM. (As compiled from internet)
   
 - ## Clean WinSxS.bat
   Run as Administrator.  
   Script for reducing size of WinSxS folder.
   #### Run with parameter "4" if you don't know what is going to happen.
+  #### Or just press enter when asked to choose. It will run with "4".
   
 - ## Optimize or defrag disks.bat
   Run as Administrator.  
