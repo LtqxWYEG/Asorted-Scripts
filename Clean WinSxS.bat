@@ -38,7 +38,7 @@ echo.
 
 set run=1
 set ask=0
-set /p ask="Choose: " || SET "ask=4"
+set /p ask="(Default: 4 [Enter]) Choose: " || SET "ask=4"
 rem IF NOT DEFINED ask SET "4"
 
 if %ask%==1 goto DISM1
