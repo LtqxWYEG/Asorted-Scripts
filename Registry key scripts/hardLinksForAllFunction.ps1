@@ -1,4 +1,7 @@
-#--- Create NTFS hard links for all files in folder X, whose names match string Z, to folder Y. ---
+#
+# --- Created by LtqxWYEG aka Distelzombie aka The One Who Made This Script (More like 'compiled')
+# --- Create NTFS hard links for all files in folder X, whose names match string Z, to folder Y. ---
+
 
 function hardLinksForAll{
         param(
