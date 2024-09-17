@@ -18,7 +18,7 @@ Just an assortment of scripts I wrote for Windows. A place to save them for use 
   #### Run with parameter "4" if you don't know what is going to happen.
   #### Or just press enter when asked to choose. It will run with "4".
   
-- ## Optimize or defrag disks.bat
+- ## Run scheduled task - Optimize and defrag disks.bat
   Run as Administrator.  
   Immediately executes the Task: "\Microsoft\Windows\Defrag\ScheduledDefrag" via schtasks.  
   Despite its name, the Task will "optimize" instead of "defragment" SSDs.
